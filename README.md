@@ -28,6 +28,12 @@ mv AlacrittyConfig/.local/share/switch_alacritty_theme.sh ~/.local/share/
 chmod +x ~/.local/share/switch_alacritty_theme.sh
 ```
 
+## Font and Window Settings
+
+This setup assumes that you have the **Fira Code** font installed on your system. You need to either install that font or modify the **alacritty.toml** file to use a font that you have installed. For example the **Arial** font should be available on most systems.
+
+You might also want to modify the Window settings in the **alacritty.toml** file to fit your taste.
+
 ## Using the Script
 
 To change your Alacritty theme, simply run:
