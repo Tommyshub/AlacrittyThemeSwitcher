@@ -54,4 +54,4 @@ Feel free to place the files in a way that makes sense for your setup, and custo
 
 ## Acknowledgements
 
-Themes are sourced from the [official Alacritty](https://github.com/alacritty/alacritty-theme/) Theme repository, which is under the Apache-2.0 license. Thanks to the creators and contributors for their work on these themes.
+Themes are sourced from the [official Alacritty Theme](https://github.com/alacritty/alacritty-theme/) repository, which is under the Apache-2.0 license. Thanks to the creators and contributors for their work on these themes.
