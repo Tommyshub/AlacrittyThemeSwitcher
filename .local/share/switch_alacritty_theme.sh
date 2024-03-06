@@ -35,7 +35,7 @@ if [[ "$choice" =~ ^[0-9]+$ ]] && [ "$choice" -ge 1 ] && [ "$choice" -le "${#the
     echo -e "$new_import_line\n$(cat "$MAIN_CONFIG")" > "$MAIN_CONFIG"
   fi
   
-  echo "Switched to theme: $(echo "$selected_theme_filename" | sed 's/\(.*\)\.toml/\1/' | tr '_' ' ' | tr '-' ' ' | tr '[:lower:]' '[:upper:]')"
+  echo "Switched to theme: $(echo "$selected_theme_filename" | sed 's/\(.*\)\.toml/\1/' | tr '_' ' ' | tr '-' ' ' | awk '{for(i=1;i<=NF;i++) $i=toupper(substr($i,1,1)) tolower(substr($i,2));}1')"
 else
   echo "Invalid selection."
 fi
