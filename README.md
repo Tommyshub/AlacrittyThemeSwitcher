@@ -1,6 +1,6 @@
 # Alacritty Theme Switcher
 
-This repository contains a bash script for easy switching between themes for Alacritty, a GPU-accelerated terminal emulator. It's designed for my personal use, but feel free to adapt and use it for your setup.
+This repository contains my setup for easy switching between themes in Alacritty, a GPU-accelerated terminal emulator. It's designed for my personal use, but feel free to adapt and use it for your setup.
 
 ## Getting Started
 
