@@ -30,9 +30,11 @@ chmod +x ~/.local/share/switch_alacritty_theme.sh
 
 ## Font and Window Settings
 
-This setup assumes that you have the **Fira Code** font installed on your system. You need to either install that font or modify the **alacritty.toml** file to use a font that you have installed. For example the **Arial** font should be available on most systems.
+This setup assumes that you have the **Fira Code** font installed on your system. You need to either install that font or modify the **alacritty.toml** file to use a font that you have installed, for example, the **Arial font**, which should be available on most systems.
 
-You might also want to modify the Window settings in the **alacritty.toml** file to fit your taste.
+You could also want to modify the window settings fit your taste. Additionally, you have the option to set these (and other) settings in each theme file instead. Making each theme more custom.
+
+If you want to keep the standard settings for the font and window, you can simply remove those sections from the config file, just keeping the import statement at the top.
 
 ## Using the Script
 
